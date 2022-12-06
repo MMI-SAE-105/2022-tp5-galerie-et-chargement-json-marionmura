@@ -1,0 +1,16 @@
+.overlay {
+    /* Sit on top of the page content */
+    position:absolute;
+    /* Full width (cover the whole page) */
+    /* Full height (cover the whole page) */
+    /* Stay at the top */
+    top:0; /*image placée entre top et bottom*/
+    /* Stay at the left */
+    /* Stay at the right */
+    /* Stay at the bottom */
+    bottom:0;
+    /* Black background with opacity */
+    /* Add a pointer on hover */
+    /* Use a grid for easy centering */
+    /* Center vertically and horizontally */
+}

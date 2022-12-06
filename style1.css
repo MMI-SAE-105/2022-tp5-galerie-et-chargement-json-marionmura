@@ -29,3 +29,21 @@ img{
     max-width:100%;
 }
 
+.overlay::after {
+    /* Add content : "X" */
+    content:"X";
+    /* White text color */
+    /* Black background color */
+    background-color:rgba(0,0,0,0);
+    /* Font family "sans-serif" */
+    /* Centered text */
+    /* Line height ( idem height ) */
+    /* Display as a block */
+    /* Position absolute */
+    /* 1rem from the top */
+    /* 1rem from the right */
+    /* 2rem width */
+    /* 2rem height */
+    /* White border of 2px */
+    /* Rounded border */
+}

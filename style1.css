@@ -2,7 +2,11 @@
     /* Sit on top of the page content */
     position:absolute;
     /* Full width (cover the whole page) */
+    /*width:100wh;*/
+   
     /* Full height (cover the whole page) */
+    /*height:100wh;*/
+    
     /* Stay at the top */
     top:0; /*image placée entre top et bottom*/
     /* Stay at the left */
@@ -13,5 +17,7 @@
     background-color:rgba(0,0,0,0.5);
     /* Add a pointer on hover */
     /* Use a grid for easy centering */
+    display:grid;
+    place-content:center;
     /* Center vertically and horizontally */
 }

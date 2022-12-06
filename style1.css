@@ -24,3 +24,8 @@
     align-items:center;
     /* Center vertically and horizontally */
 }
+
+img{
+    max-width:100%;
+}
+

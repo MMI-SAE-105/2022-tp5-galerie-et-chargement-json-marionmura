@@ -10,7 +10,9 @@
     /* Stay at the top */
     top:0; /*image placée entre top et bottom*/
     /* Stay at the left */
+    left:0;
     /* Stay at the right */
+    right:0;
     /* Stay at the bottom */
     bottom:0;
     /* Black background with opacity */
@@ -19,5 +21,6 @@
     /* Use a grid for easy centering */
     display:grid;
     place-content:center;
+    align-items:center;
     /* Center vertically and horizontally */
 }

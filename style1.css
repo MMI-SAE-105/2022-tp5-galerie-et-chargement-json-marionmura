@@ -33,9 +33,11 @@ img{
     /* Add content : "X" */
     content:"X";
     /* White text color */
+    color:rgba(255,255,255);
     /* Black background color */
     background-color:rgba(0,0,0,0);
     /* Font family "sans-serif" */
+    font-family:sans-serif;
     /* Centered text */
     /* Line height ( idem height ) */
     /* Display as a block */

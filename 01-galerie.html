@@ -12,6 +12,8 @@
 <body x-data="{imgaffichee:'https://picsum.photos/id/237/200/300',}">
     <h1>Galerie</h1>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel nemo nam facilis corrupti totam suscipit quasi sunt explicabo in provident molestias perspiciatis non distinctio consequuntur, ad animi fugiat atque eaque.</p>
+    <img src="https://picsum.photos/id/236/200/300" alt="miniature chiot" @click="imgaffichee='https://picsum.photos/id/236/200/300'">
+    <img src="https://picsum.photos/id/237/200/300" alt="miniature chiot" @click="imgaffichee='https://picsum.photos/id/237/200/300'">
     <div class="overlay" x-show="imgaffichee" @click="imgaffichee=null" @keyup.escape.window="imgaffichee=null" >
         <figure><img :src="imgaffichee" alt="image 237... un chiot"></figure>
     </div>

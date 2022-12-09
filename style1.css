@@ -18,11 +18,12 @@
     /* Black background with opacity */
     background-color:rgba(0,0,0,0.5);
     /* Add a pointer on hover */
+    cursor:pointer;
     /* Use a grid for easy centering */
     display:grid;
+    /* Center vertically and horizontally */
     place-content:center;
     align-items:center;
-    /* Center vertically and horizontally */
 }
 
 img{
@@ -39,6 +40,7 @@ img{
     /* Font family "sans-serif" */
     font-family:sans-serif;
     /* Centered text */
+    text-align:center;
     /* Line height ( idem height ) */
     /* Display as a block */
     /* Position absolute */

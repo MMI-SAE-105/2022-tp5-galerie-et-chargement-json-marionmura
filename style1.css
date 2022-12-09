@@ -63,8 +63,11 @@ img{
 
 .overlay>figure {
     /* No margin */
+    margin:none;
     /* 1rem padding */
+    padding:1rem;
     /* White border of 2px */
+    border: 2px solide #fff;
 }
 .overlay>figure>img {
     /* Max width 100% for responsive image */

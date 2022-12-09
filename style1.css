@@ -60,3 +60,13 @@ img{
     /* Rounded border */
     border-radius: 50%;
 }
+
+.overlay>figure {
+    /* No margin */
+    /* 1rem padding */
+    /* White border of 2px */
+}
+.overlay>figure>img {
+    /* Max width 100% for responsive image */
+    /* Height auto for keeping the ratio */
+}
